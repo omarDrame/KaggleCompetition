@@ -11,7 +11,7 @@ So, the data is quite simple no missing values, few outliers, only about 30 obse
 
 ## My approach
 ### 1.	Setting a reference value
-The metric for this regression problem was the root mean square error rmse, I started by using an extreme gradient boosting without a proper limitation on its max_depth parameter i.e.** I use an algorithm that would perform and over fit**. The idea was to get as close as possible to the best possible value for the problem, on the training set the rme was about at **6k**.
+The metric for this regression problem was the root mean square error rmse, I started by using an extreme gradient boosting without a proper limitation on its max_depth parameter i.e. **I use an algorithm that would perform and over fit**. The idea was to get as close as possible to the best possible value for the problem, on the training set the rme was about at **6k**.
 
 ### 2.	Trying to reach rmse = 6k on the out of fold Cross validation
 *Quick answer*: I didn’t.
