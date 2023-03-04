@@ -15,7 +15,7 @@ The metric for this regression problem was the root mean square error rmse, I st
 
 ### 2.	Trying to reach rmse = 6k on the out of fold Cross validation
 *Quick answer*: I didn’t.
-I started by trying to reach a rmse as close as possible to the gradient boosting while lowering the max depth, I reached a rmse of about **8-9k on the oof set**, which is close to the 6k. Because the oof results were like the ones on the training set, I knew I wouldn’t overfit too much on the testing set (the submission).
+I started by trying to reach a rmse as close as possible to the gradient boosting while lowering the max depth, I reached a rmse of about **8-9k on the oof set**, which is close to the 6k. Because the oof results were like the ones on the training set, I knew I wouldn’t over fit too much on the testing set (the submission).
 
 ### 3.	Ensemble
 I trained many other algorithms but I couldn’t get a rmse inferior to **40 k**, so I decided not to add them to create an ensemble, it is useless to aggregate algorithms that don’t perform well in the first place. 
