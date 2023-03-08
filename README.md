@@ -21,4 +21,4 @@ I started by trying to reach a rmse as close as possible to the gradient boostin
 I trained many other algorithms but I couldn’t get a rmse inferior to **40 k**, so I decided not to add them to create an ensemble, it is useless to aggregate algorithms that don’t perform well in the first place. 
 
 # similarProject.ipynb
-This file contains a similar project with a little more insights and less emphasis on the quality of the result 
+This file contains a similar project with a little more details and less emphasis on the quality of the results. 
